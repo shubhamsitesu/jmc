@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found | JM Cassidy</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="404 - Page not found on JM Cassidy. This page doesn't exist or has been moved.">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="https://jmcassidy.com/favicon.ico">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Styles -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .brand-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+        }
+        
+        .text-gradient {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-pattern {
+            background-color: #f8fafc;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231e40af' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+            }
+        }
+    </style>
+</head>
+<body class="hero-pattern min-h-screen flex items-center justify-center">
+    <div class="container mx-auto px-4 py-12">
+        <div class="text-center">
+            <!-- Brand Logo -->
+            <div class="flex justify-center mb-8">
+                <div class="w-20 h-20 brand-gradient rounded-2xl flex items-center justify-center float-animation">
+                    <span class="text-white font-bold text-3xl">JC</span>
+                </div>
+            </div>
+            
+            <!-- 404 Text -->
+            <div class="mb-8">
+                <h1 class="text-9xl font-bold text-gradient mb-4">404</h1>
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Oops! Page Not Found</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    The page you're looking for doesn't exist or has been moved. 
+                    Don't worry, JM Cassidy is here to help you find what you need.
+                </p>
+            </div>
+            
+            <!-- Search Box -->
+            <div class="max-w-md mx-auto mb-8">
+                <div class="relative">
+                    <input type="text" 
+                           placeholder="Search our site..." 
+                           class="w-full px-6 py-4 pr-12 border-2 border-gray-300 rounded-full focus:outline-none focus:border-blue-500 transition">
+                    <button class="absolute right-2 top-1/2 transform -translate-y-1/2 brand-gradient text-white w-10 h-10 rounded-full flex items-center justify-center hover:opacity-90 transition">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Navigation Options -->
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
+                <a href="/" class="brand-gradient text-white px-8 py-4 rounded-full font-semibold hover:opacity-90 transition transform hover:scale-105">
+                    <i class="fas fa-home mr-2"></i>Go to Homepage
+                </a>
+                <a href="#contact" class="bg-white text-blue-600 border-2 border-blue-600 px-8 py-4 rounded-full font-semibold hover:bg-blue-50 transition">
+                    <i class="fas fa-envelope mr-2"></i>Contact Us
+                </a>
+            </div>
+            
+            <!-- Helpful Links -->
+            <div class="bg-white rounded-2xl shadow-lg p-8 max-w-3xl mx-auto">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Popular Pages</h3>
+                <div class="grid md:grid-cols-2 gap-4">
+                    <a href="#about" class="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
+                        <div class="w-12 h-12 brand-gradient rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-info-circle text-white"></i>
+                        </div>
+                        <div class="text-left">
+                            <h4 class="font-semibold">About JM Cassidy</h4>
+                            <p class="text-sm text-gray-600">Learn about our brand</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#services" class="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
+                        <div class="w-12 h-12 brand-gradient rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-cogs text-white"></i>
+                        </div>
+                        <div class="text-left">
+                            <h4 class="font-semibold">Our Services</h4>
+                            <p class="text-sm text-gray-600">What we offer</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#portfolio" class="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
+                        <div class="w-12 h-12 brand-gradient rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-briefcase text-white"></i>
+                        </div>
+                        <div class="text-left">
+                            <h4 class="font-semibold">Portfolio</h4>
+                            <p class="text-sm text-gray-600">Our work</p>
+                        </div>
+                    </a>
+                    
+                    <a href="#testimonials" class="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition">
+                        <div class="w-12 h-12 brand-gradient rounded-full flex items-center justify-center mr-4">
+                            <i class="fas fa-star text-white"></i>
+                        </div>
+                        <div class="text-left">
+                            <h4 class="font-semibold">Testimonials</h4>
+                            <p class="text-sm text-gray-600">Client reviews</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="mt-12 text-center">
+                <p class="text-gray-600 mb-4">Still can't find what you're looking for?</p>
+                <div class="flex flex-col sm:flex-row justify-center items-center gap-6 text-gray-600">
+                    <div class="flex items-center">
+                        <i class="fas fa-phone mr-2 text-blue-600"></i>
+                        <span>+1 (800) 123-4567</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope mr-2 text-blue-600"></i>
+                        <span>info@jmcassidy.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="absolute bottom-0 w-full bg-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-600">&copy; 2024 JM Cassidy. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Search functionality
+        document.querySelector('input[type="text"]').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const searchTerm = e.target.value;
+                if (searchTerm) {
+                    // In a real implementation, this would redirect to search results
+                    alert(`Searching for: ${searchTerm}\n\nThis would redirect to search results in a real implementation.`);
+                }
+            }
+        });
+        
+        // Search button click
+        document.querySelector('button').addEventListener('click', function() {
+            const searchInput = document.querySelector('input[type="text"]');
+            const searchTerm = searchInput.value;
+            if (searchTerm) {
+                alert(`Searching for: ${searchTerm}\n\nThis would redirect to search results in a real implementation.`);
+            }
+        });
+    </script>
+</body>
+</html>
