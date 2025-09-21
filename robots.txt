@@ -1,0 +1,13 @@
+# robots.txt for JMCassidy.com
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+# Sitemap location
+Sitemap: https://jmcassidy.com/sitemap.xml
